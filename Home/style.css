@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    padding:.8rem;
+    padding-top: 0;
+    border-bottom: #fff solid;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbarContainer{
+    
+    width: 50%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar >.nav-list{
+list-style: none;
+
+}
+
+.navbar .nav-list a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: #fff;
+    font-size: 3rem;
+    height: 24rem;
+    margin-top: -2rem
+}
+.banner .bannerContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.bannerContainer .getBtn{
+    background-color:transparent;
+    color: #fff;
+    outline: none;
+    border : 1px solid deepskyblue;
+    padding:1rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.play-btn{
+    background-color:transparent;
+    color: deepskyblue;
+    outline: none;
+    border : 1px solid deepskyblue;
+    padding:1rem;
+    font-size: 1.5rem;
+    border-radius:50%;
+    margin-top: 2rem;
+    border-width: 2px;
+}
+section{
+    margin:0 18rem;
+    
+}
+section h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tours-list{
+    margin: 2rem;
+}
+.tour-item{
+    
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.date{
+    width:20%;
+    display: inline-block;
+    text-align: start;
+}
+.place{
+    width:20%;
+    display: inline-block;
+    text-align: start;
+    color: grey;
+}
+.theater{
+    width:40%;
+    display: inline-block;
+    text-align: start;
+    color: gray;
+}
+.btn{
+    outline:none;
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer{
+    height: 6.5em;
+    background-color: deepskyblue;
+    color: #fff;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .title{
+    font-size: 1.5rem;
+}
+footer .socialLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+    
+}
+footer .socialLinks a{
+    background-color: none;
+}
+footer .socialLinks a:hover{
+   text-shadow: 2px 5px red;
+   /* background-color: aquamarine; */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
